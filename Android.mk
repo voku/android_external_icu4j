@@ -16,5 +16,8 @@
 LOCAL_PATH := $(my-dir)
 include $(CLEAR_VARS)
 
+#uncomment following for CM7 integration
+#LOCAL_MODULE_TAGS := optional
+
 LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := libicu4j:icu4j-4_4.jar
 include $(BUILD_MULTI_PREBUILT)
